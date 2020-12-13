@@ -1,0 +1,39 @@
+.wrap{
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+
+.searchbar {
+  width: 30%;
+  border: 2px solid #008CBA;
+  padding: 8px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  color: rgb(0, 15, 8);
+  margin-top: 300px;
+  margin-left: 500px;
+}
+
+
+.btnSearch {
+  height: 20px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  border: 2px solid #008CBA;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  color: rgb(0, 15, 8);
+}
+
+.movieTable {
+  width: 75%;
+  border: 1px solid black;
+  font-weight: bold;
+  color: rgb(0, 15, 8);
+  margin-top: 50px;
+  margin-left: 300px;
+}
