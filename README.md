@@ -16,4 +16,8 @@ yarn start
 
 # Output
 
-![HomePage] (https://github.com/AnandRamachandrancse1987/movie_assignment_client/blob/main/homePage.png)
+https://github.com/AnandRamachandrancse1987/movie_assignment_client/blob/main/homePage.png
+
+https://github.com/AnandRamachandrancse1987/movie_assignment_client/blob/main/searchPage.png
+
+https://github.com/AnandRamachandrancse1987/movie_assignment_client/blob/main/AfterButtonClick.png
