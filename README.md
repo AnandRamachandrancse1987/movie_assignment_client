@@ -14,7 +14,7 @@ yarn install
 yarn start
 ```
 
-# Sample Output
+# Output Screen Shots
 
 https://github.com/AnandRamachandrancse1987/movie_assignment_client/blob/main/homePage.png
 
