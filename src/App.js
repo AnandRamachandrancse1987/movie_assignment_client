@@ -6,12 +6,7 @@ import { Button } from "react-bootstrap"
 import "./App.css";
 
 
-//const API_URL =
-  //"http://suggestqueries.google.com/complete/search?client=youtube&q=";
-
-const SEARCH_API_URL = "http://127.0.0.1:8080/api/search/"
-
-const FETCH_API_URL = "http://127.0.0.1:8080/api/getMovie/"
+const API_URL = "http://127.0.0.1:8080/api/movie/"
 
 
 class Search extends Component {
@@ -25,7 +20,7 @@ class Search extends Component {
   };
 
   searchReasults = () => {
-    fetch(`${SEARCH_API_URL}${this.state.query}`,{
+    fetch(`${API_URL}${this.state.query}/search`,{
       'Accept': 'application/json',
   'Content-Type': 'application/json'
     })
@@ -48,7 +43,7 @@ class Search extends Component {
   };
 
   fetchReasults = () => {
-    fetch(`${FETCH_API_URL}${this.state.query}`,{
+    fetch(`${API_URL}${this.state.query}`,{
       'Accept': 'application/json',
   'Content-Type': 'application/json'
     })
